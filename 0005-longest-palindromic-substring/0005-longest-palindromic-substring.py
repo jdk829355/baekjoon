@@ -1,20 +1,17 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
-        if n == 1:
-            return s
+        dp = [[False]*n for _ in range(n)]
 
-        def expand(a, b):
-            while a >= 0 and b < n and s[a] == s[b]:
-                a -= 1
-                b += 1
+        for i in range(n):
+            dp[i][i] = True
 
-            return (a+1, b-1)
-        
-        res = s[0]
-        for i in range(n-1):
-            e = expand(i, i+1)
-            o = expand(i, i+2)
-            res = max(res, s[e[0]:e[1]+1], s[o[0]:o[1]+1], key = len)
-
-        return res
+        for x in range(1, n):
+            i, j = 0, x
+            while j < n:
+                if j-i == 1:
+                    dp[i][j] = s[i] == s[j]
+                else:
+                    dp[i][j] = s[i] == s[j] and dp[i+1][j-1]
+                i, j = i+1, j+1
+        return max((s[i:j+1] for i in range(n) for j in range(i, n) if dp[i][j]), key=len)
