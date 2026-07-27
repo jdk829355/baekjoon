@@ -6,12 +6,14 @@ class Solution:
         for i in range(n):
             dp[i][i] = True
 
+        res = s[0]
+
         for x in range(1, n):
             i, j = 0, x
             while j < n:
-                if j-i == 1:
-                    dp[i][j] = s[i] == s[j]
-                else:
-                    dp[i][j] = s[i] == s[j] and dp[i+1][j-1]
+                if (j-i == 1 and s[i] == s[j]) or (s[i] == s[j] and dp[i+1][j-1]):
+                    dp[i][j] = True
+                    res = max(res, s[i:j+1], key=len)
                 i, j = i+1, j+1
-        return max((s[i:j+1] for i in range(n) for j in range(i, n) if dp[i][j]), key=len)
+
+        return res
