@@ -19,4 +19,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jdk829355/baekjoon/tree/master/0005-longest-palindromic-substring) |
+## Array
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/jdk829355/baekjoon/tree/master/0643-maximum-average-subarray-i) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/jdk829355/baekjoon/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
