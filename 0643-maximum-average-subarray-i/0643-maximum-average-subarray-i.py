@@ -5,9 +5,8 @@ class Solution:
         max_s = s
 
         while en+1 < len(nums):
-            new_s = s-nums[st]+nums[en+1]
-            max_s = max(max_s, new_s)
-            s = new_s
+            s = s-nums[st]+nums[en+1]
+            max_s = max(max_s, s)
             st, en = st+1, en+1
         
         return max_s/k
