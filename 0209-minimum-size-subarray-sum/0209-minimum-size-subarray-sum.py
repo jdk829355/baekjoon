@@ -16,6 +16,8 @@ class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         if sum(nums) < target:
             return 0
+        if any([x >= target for x in nums]):
+            return 1
 
         N = len(nums)
 
@@ -23,7 +25,7 @@ class Solution:
 
         while st < en:
             mid = (st+en)//2
-            
+
             if self.is_gte_target(nums, mid, target):
                 en = mid
             else:
