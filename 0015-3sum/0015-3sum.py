@@ -7,6 +7,9 @@ class Solution:
         
         
         for i in range(N-2):
+            if i>0 and nums[i-1] == nums[i]:
+                continue
+
             st = i+1
             en = N-1
             visited = set()
