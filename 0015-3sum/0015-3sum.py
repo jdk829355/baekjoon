@@ -33,7 +33,11 @@ class Solution:
 
                 elif s > 0:
                     en -= 1
+                    while st < en < N-1 and nums[en+1] == nums[en]:
+                        en -= 1
                 else:
                     st += 1
+                    while 0 < st < en and nums[st-1] == nums[st]:
+                        st+=1 
 
         return list(res)
