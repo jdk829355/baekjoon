@@ -10,8 +10,8 @@ class Solution:
 
         for right in range(N):
             if s[right] in used and left <= used[s[right]]:
-                    left = used[s[right]] + 1
-                    used[s[right]] = right
+                left = used[s[right]] + 1
+                used[s[right]] = right
             else:
                 used[s[right]] = right
                 max_len = max(max_len, right - left + 1)
