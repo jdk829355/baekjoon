@@ -14,6 +14,11 @@ class Solution:
 
         get_adj = lambda r, c : [(r+dr, c+dc, abs(heights[r+dr][c+dc] - heights[r][c])) for dr, dc in d if 0<=r+dr<nrow and 0<=c+dc<ncol]
 
+        adj_mat = [[[] for _ in range(ncol)] for _ in range(nrow)]
+
+        for r in range(nrow):
+            for c in range(ncol):
+                adj_mat[r][c] = get_adj(r, c)
 
         effort = [[float('inf')]*ncol for _ in range(nrow)]
         effort[0][0] = 0
@@ -26,7 +31,7 @@ class Solution:
             if e > effort[r][c]:
                 continue
             
-            for new_r, new_c, w in get_adj(r, c):
+            for new_r, new_c, w in adj_mat[r][c]:
                 new_effort = max(w, effort[r][c])
                 if effort[new_r][new_c] > new_effort:
                     effort[new_r][new_c] = new_effort
