@@ -57,19 +57,23 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Graph Theory
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 ## Dijkstra's Algorithm
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 ## Union-Find
 |  |
@@ -91,4 +95,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+## Depth-First Search
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
