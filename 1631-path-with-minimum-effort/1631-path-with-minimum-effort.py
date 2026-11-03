@@ -27,8 +27,9 @@ class Solution:
                 continue
             
             for new_r, new_c, w in get_adj(r, c):
-                if effort[new_r][new_c] > max(w, effort[r][c]):
-                    effort[new_r][new_c] = max(w, effort[r][c])
+                new_effort = max(w, effort[r][c])
+                if effort[new_r][new_c] > new_effort:
+                    effort[new_r][new_c] = new_effort
                     hq.heappush(pq, (effort[new_r][new_c], new_r, new_c))
         
         return effort[nrow-1][ncol-1]
