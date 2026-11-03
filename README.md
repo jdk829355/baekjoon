@@ -31,6 +31,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0643-maximum-average-subarray-i](https://github.com/jdk829355/baekjoon/tree/master/0643-maximum-average-subarray-i) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 ## Sliding Window
 |  |
 | ------- |
@@ -42,6 +43,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jdk829355/baekjoon/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/jdk829355/baekjoon/tree/master/0209-minimum-size-subarray-sum) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -65,6 +67,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 ## Shortest Path
 |  |
 | ------- |
@@ -75,10 +78,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 ## Union-Find
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -99,8 +104,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
+## Matrix
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
