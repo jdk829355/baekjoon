@@ -30,6 +30,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0209-minimum-size-subarray-sum](https://github.com/jdk829355/baekjoon/tree/master/0209-minimum-size-subarray-sum) |
 | [0643-maximum-average-subarray-i](https://github.com/jdk829355/baekjoon/tree/master/0643-maximum-average-subarray-i) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
 ## Sliding Window
 |  |
 | ------- |
@@ -57,6 +58,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -69,4 +71,24 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
+## Union-Find
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
