@@ -32,6 +32,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/jdk829355/baekjoon/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
+| [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/jdk829355/baekjoon/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -68,6 +69,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0743-network-delay-time](https://github.com/jdk829355/baekjoon/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/jdk829355/baekjoon/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
+| [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/jdk829355/baekjoon/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 ## Shortest Path
 |  |
 | ------- |
@@ -114,4 +116,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/jdk829355/baekjoon/tree/master/1631-path-with-minimum-effort) |
+## Simulation
+|  |
+| ------- |
+| [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/jdk829355/baekjoon/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 <!---LeetCode Topics End-->
