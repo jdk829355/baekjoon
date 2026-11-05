@@ -4,7 +4,8 @@ class Solution:
         hq.heapify(nums)
 
         cnt = 0
-        while len(nums) > 1:
+        n = len(nums)
+        for _ in range(n-1):
             left = hq.heappop(nums)
             right = hq.heappop(nums)
 
