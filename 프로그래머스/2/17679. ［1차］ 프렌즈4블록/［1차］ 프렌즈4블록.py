@@ -6,6 +6,7 @@ def solution(m, n, board):
     result = 0
     
     def clear_board():
+        # 2*2 필터로 같은 캐릭터 패턴 검출하고 visited에 저장, board는 한 번에 반영
         nonlocal result
         
         d = (
