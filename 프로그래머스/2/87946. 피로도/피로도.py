@@ -4,13 +4,15 @@ def solution(k, dungeons):
     
     result = 0
     
+    from collections import deque
+    
     def solve(k, left_dungeons):
         nonlocal result
         result = max(result, len(dungeons) - len(left_dungeons))
         n = len(left_dungeons)
         
         for _ in range(n):
-            d = left_dungeons.pop(0)
+            d = left_dungeons.popleft()
             required, cost = dungeons[d]
             if k >= required:
                 k -= cost
@@ -18,7 +20,9 @@ def solution(k, dungeons):
                 k += cost
             left_dungeons.append(d)
                 
-    solve(k, [i for i in range(len(dungeons))])
+    solve(k, deque([i for i in range(len(dungeons))]))
+    
     return result
+
             
                         
