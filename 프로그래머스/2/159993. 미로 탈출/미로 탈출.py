@@ -39,8 +39,6 @@ def solution(maps):
         while q:
             rr, cc = q.popleft()
             
-            
-            
             for dr, dc in d:
                 newr, newc = rr + dr, cc + dc
                 if 0<=newr<nr and\
